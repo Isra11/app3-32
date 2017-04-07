@@ -1,0 +1,1491 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>tercera aplicacion movil</title>
+
+<!--gupo CSS-->
+<link rel="stylesheet" href="css/tema1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<style type="text/css">
+body,td,th {
+	color: #0F0;
+}
+body {
+	background-color: #FFF;
+}
+.t {
+	font-size: medium;
+}
+</style>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/definicion2.jpg','imagenes/evo2.jpg','imagenes/gama2.jpg','imagenes/tel1.jpg','imagenes/fut2.png','imagenes/lib1.1.jpg','imagenes/libro2.1.jpg','imagenes/libro 3.2.jpg','imagenes/libro 4.1.jpg','imagenes/libro 6.1.jpg','imagenes/libro 8.1.png','imagenes/libro 9.1.jpg','imagenes/libro 10.1.jpg','imagenes/libro 11.1.jpg','imagenes/libro 12.1.jpg','imagenes/libro 13.2.png')">
+  
+<div data-role="page" id="principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="false" data-back-btn-text=""="Regresar" data-back-btn-theme="b">
+    <h1 class="flow">Bibliografia de Programación</h1>
+</div>
+<div data-role="main" class="ui-content">
+    </div>
+    <div>
+      <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Java Cómo Programar</h2> 
+             <p>DEITEL DEITEL</p>
+          </a>
+        </li>     
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Programación en JAVA</h2>  
+               <p>C. Thomas Wu</p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Estructura de Datos 3ra Edición</h2>  
+               <p>Osvaldo Cairo y Sildia Guardati</p>
+          </a>
+       </li>
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Comunicaciones y redes de Computadoras</h2>  
+               <p>William Stallings</p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>ASP.NET 4.0</h2>  
+               <p>George Shepherd</p>
+          </a>
+       </li>
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Redes de Computadoras</h2>  
+               <p>Andrew S. Tanenbaum</p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Visual c# 2010</h2>  
+               <p>John Sharp</p>
+          </a>
+       </li> 
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Fundamento de Redes 4ta Edición</h2>  
+               <p>Bruce A. Hallberg</p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+        <a href="#pagina9" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>Sistemas Operativos </h2>  
+             <p>Jesús Carretero Pérez - Félix García Carballeira </p>
+        <p> Pedro de Miguel Anasagasti - Fernando Pérez Costoya</p>
+        </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+          <a href="#pagina10" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>SQL SERVER 2005</h2>  
+               <p>Andrew J. Brust - Stephen Forte</p>
+          </a>
+       </li> 
+      <li class="ui-first-child ui-last-child">
+          <a href="#pagina11" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+             <h2>Mantenimiento y Reparación de Computadoras</h2>  
+               <p>Royce Editorial</p>
+          </a>
+       </li>
+       </ul>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/lib1.1.jpg" alt="lib1.1" title="lib1.1" id="wows1_0"/></li>
+		<li><img src="data1/images/libro_3.1.jpg" alt="libro 3.1" title="libro 3.1" id="wows1_1"/></li>
+		<li><img src="data1/images/libro_3.2.jpg" alt="libro 3.2" title="libro 3.2" id="wows1_2"/></li>
+		<li><img src="data1/images/libro_4.1.jpg" alt="libro 4.1" title="libro 4.1" id="wows1_3"/></li>
+		<li><img src="data1/images/libro_4.png" alt="libro 4" title="libro 4" id="wows1_4"/></li>
+		<li><img src="data1/images/libro_6.1.jpg" alt="libro 6.1" title="libro 6.1" id="wows1_5"/></li>
+		<li><img src="data1/images/libro_6.jpg" alt="libro 6" title="libro 6" id="wows1_6"/></li>
+		<li><img src="data1/images/libro_8.1.png" alt="libro 8.1" title="libro 8.1" id="wows1_7"/></li>
+		<li><img src="data1/images/libro_8.png" alt="libro 8" title="libro 8" id="wows1_8"/></li>
+		<li><img src="data1/images/libro_9.1.jpg" alt="libro 9.1" title="libro 9.1" id="wows1_9"/></li>
+		<li><img src="data1/images/libro_9.jpg" alt="libro 9" title="libro 9" id="wows1_10"/></li>
+		<li><img src="data1/images/libro_10.1.jpg" alt="libro 10.1" title="libro 10.1" id="wows1_11"/></li>
+		<li><img src="data1/images/libro_10.jpg" alt="libro 10" title="libro 10" id="wows1_12"/></li>
+		<li><img src="data1/images/libro_11.1.jpg" alt="libro 11.1" title="libro 11.1" id="wows1_13"/></li>
+		<li><img src="data1/images/libro_11.jpg" alt="libro 11" title="libro 11" id="wows1_14"/></li>
+		<li><img src="data1/images/libro_12.1.jpg" alt="libro 12.1" title="libro 12.1" id="wows1_15"/></li>
+		<li><img src="data1/images/libro_12.jpg" alt="libro 12" title="libro 12" id="wows1_16"/></li>
+		<li><img src="data1/images/libro_13.2.png" alt="libro 13.2" title="libro 13.2" id="wows1_17"/></li>
+		<li><img src="data1/images/libro_13.png" alt="libro 13" title="libro 13" id="wows1_18"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/libro2.1.jpg" alt="slider" title="libro2.1" id="wows1_19"/></a></li>
+		<li><img src="data1/images/libro2.jpg" alt="libro2" title="libro2" id="wows1_20"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="lib1.1"><span><img src="data1/tooltips/lib1.1.jpg" alt="lib1.1"/>1</span></a>
+		<a href="#" title="libro 3.1"><span><img src="data1/tooltips/libro_3.1.jpg" alt="libro 3.1"/>2</span></a>
+		<a href="#" title="libro 3.2"><span><img src="data1/tooltips/libro_3.2.jpg" alt="libro 3.2"/>3</span></a>
+		<a href="#" title="libro 4.1"><span><img src="data1/tooltips/libro_4.1.jpg" alt="libro 4.1"/>4</span></a>
+		<a href="#" title="libro 4"><span><img src="data1/tooltips/libro_4.png" alt="libro 4"/>5</span></a>
+		<a href="#" title="libro 6.1"><span><img src="data1/tooltips/libro_6.1.jpg" alt="libro 6.1"/>6</span></a>
+		<a href="#" title="libro 6"><span><img src="data1/tooltips/libro_6.jpg" alt="libro 6"/>7</span></a>
+		<a href="#" title="libro 8.1"><span><img src="data1/tooltips/libro_8.1.png" alt="libro 8.1"/>8</span></a>
+		<a href="#" title="libro 8"><span><img src="data1/tooltips/libro_8.png" alt="libro 8"/>9</span></a>
+		<a href="#" title="libro 9.1"><span><img src="data1/tooltips/libro_9.1.jpg" alt="libro 9.1"/>10</span></a>
+		<a href="#" title="libro 9"><span><img src="data1/tooltips/libro_9.jpg" alt="libro 9"/>11</span></a>
+		<a href="#" title="libro 10.1"><span><img src="data1/tooltips/libro_10.1.jpg" alt="libro 10.1"/>12</span></a>
+		<a href="#" title="libro 10"><span><img src="data1/tooltips/libro_10.jpg" alt="libro 10"/>13</span></a>
+		<a href="#" title="libro 11.1"><span><img src="data1/tooltips/libro_11.1.jpg" alt="libro 11.1"/>14</span></a>
+		<a href="#" title="libro 11"><span><img src="data1/tooltips/libro_11.jpg" alt="libro 11"/>15</span></a>
+		<a href="#" title="libro 12.1"><span><img src="data1/tooltips/libro_12.1.jpg" alt="libro 12.1"/>16</span></a>
+		<a href="#" title="libro 12"><span><img src="data1/tooltips/libro_12.jpg" alt="libro 12"/>17</span></a>
+		<a href="#" title="libro 13.2"><span><img src="data1/tooltips/libro_13.2.png" alt="libro 13.2"/>18</span></a>
+		<a href="#" title="libro 13"><span><img src="data1/tooltips/libro_13.png" alt="libro 13"/>19</span></a>
+		<a href="#" title="libro2.1"><span><img src="data1/tooltips/libro2.1.jpg" alt="libro2.1"/>20</span></a>
+		<a href="#" title="libro2"><span><img src="data1/tooltips/libro2.jpg" alt="libro2"/>21</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->       
+       
+       
+    </div>
+<div  data-role="footer" align="center" data-theme="a" data-position="fixed">
+      <div>
+         <img src="imagenes/logo.png" width="56" height="56">
+      </div>
+      <div>
+         <h4> Aplicacion tres </h4>
+         <h4> Israel Arturo Romero Estrada </h4>
+      </div>
+     </div>
+    </div>
+    
+<div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Java Cómo Programar </h1>
+      </div>
+       <div data-role="content" align="center">
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Primero','','imagenes/lib1.1.jpg',1)"><img src="imagenes/lib1.jpg" alt="Java como programar" width="459" height="600" id="Primero"></a>  
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Indice del Libro </h1>
+      <div>  
+Capítulo 1: Introducción las computadoras, Internet y Web. <br>
+Capítulo 2: Introducción a las aplicaciones en Java. <br>
+Capítulo 3: Introducción a las clases y los objetos. <br>
+Capítulo 4: Instrucciones de control: parte 1. <br>
+Capítulo 5: Instrucciones de control: parte 2. <br>
+Capítulo 6: Métodos: un análisis más detallado. <br>
+Capítulo 7: Arreglos. <br>
+Capítulo 8: Clases y objetos: un análisis más detallado. <br>
+Capítulo 9: Programación orienta a objetos: herencia. <br>
+Capítulo 10: Programación orientada a objetos: poliformismo. <br>
+Capítulo 11: Componentes la GUI: parte 1. <br>
+Capítulo 12: Gráficos Java 2D. <br>
+Capítulo 13: Manejo de excepciones. <br>
+Capítulo 14: Archivos y flujos. <br>
+Capítulo 15: Recursividad. <br>
+Capítulo 16: Búsqueda ordenamiento. <br>
+Capítulo 17: Estructuras de datos. <br>
+Capítulo 18: Genéricos. <br>
+Capítulo 19: Colecciones. <br>
+Capítulo 20: Introducción a los applets de Java. <br>
+Capítulo 21: Multimedia: applets y aplicaciones. <br>
+Capítulo 22: Componenetes de la GUI: parte 2. <br>
+Capítulo 23: Subprocesamiento múltiple. <br>
+Capítulo 24: Redes. <br>
+Capítulo 25: Acceso a bases datos con JDBC. <br>
+Capítulo 26: Aplicaciones Web: parte 1. <br>
+Capítulo 27: Aplicaciones Web: parte 2. <br>
+Capítulo 28: Servicios Web JAX-WS, Web 2.0 y Mash-ups. <br>
+Capítulo 29: Salida con formato. <br>
+Capítulo 30: Cadenas, caracteres y expresiones regulares. <br>
+Apéndice A: Tabla de precedencia de los operadores. <br>
+Apéndice B: Conjunto de caracteres ASCII. <br>
+Apéndice C: Palabras clave y palabras reservadas. <br>
+Apéndice D: Tipos primitivos. <br>
+Apéndice E: Sistemas numéricos. <br>
+Apéndice F: Group Layou. <br>
+Apéndice G: Componentes e integración Java Desktop (JDIC). <br>
+Apéndice H: Masus Índice. <br>
+      </div>
+     </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro1.png" width="450" height="600"> <br>
+     <img src="imagenes/libro1.1.png" width="450" height="600"> <br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+  <a href="https://mega.nz/#!wo0y1TRA!uzqwh61Quf36tEYjIdIyjcnAd7Gc1FaKNSzWr5qMsAU">https://mega.nz/#!wo0y1TRA!uzqwh61Quf36tEYjIdIyjcnAd7Gc1FaKNSzWr5qMsAU</a>
+  <br>
+  compra <br>
+<a href="https://www.elsotano.com/libro-java-como-programar-7-ed-incluye-cd-10277068">https://www.elsotano.com/libro-java-como-programar-7-ed-incluye-cd-10277068</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div>
+            </div>
+            
+           
+<div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Programación en Java </h1>
+      </div>
+       <div data-role="content" align="center">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/libro2.1.jpg',1)"><img src="imagenes/libro2.jpg" width="450" height="600" id="Image7"></a>
+        </div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div>
+        <p>Prólogo xi<br>
+          Resumen del proyecto xxi<br>
+          CAPÍTULO 1<br>
+          Introducción a las computadoras<br>
+          y la programación 1<br>
+          1.1. Introducción 1<br>
+          1.2. Terminología de  hardware 2<br>
+          1.3. Desarrollo del  programa 8<br>
+          1.4. Código fuente 10<br>
+          1.5. Compilación de  código fuente<br>
+          en código objeto 11<br>
+          1.6. Portabilidad 11<br>
+          1.7. Surgimiento de  Java 13<br>
+          1.8. Primer programa:  Hola mundo 14<br>
+          1.9. Apartado GUI:  Hola mundo<br>
+          (opcional) 18<br>
+          CAPÍTULO 2<br>
+          Algoritmos y diseño 23<br>
+          2.1. Introducción 23<br>
+          2.2. Salida 24<br>
+          2.3. Variables 25<br>
+          2.4. Operadores y  sentencias<br>
+          de asignación 26<br>
+          2.5. Entrada 26<br>
+          2.6. Flujo de control  y diagrama de fl ujo 27<br>
+          2.7. Sentencias if 28<br>
+          2.8. Bucles 32<br>
+          2.9. Técnicas de  terminación de un ciclo 34<br>
+          2.10. Bucles anidados  37<br>
+          2.11. Trazado 39<br>
+          2.12. Otros formatos  de seudocódigo<br>
+          y aplicaciones 42<br>
+          2.13. Resolución de  problema: administración<br>
+          de activos (opcional) 44<br>
+          CAPÍTULO 3<br>
+          Fundamentos de Java 51<br>
+          3.1. Introducción 52<br>
+          3.2. Programa &ldquo;Tengo  un sueño&rdquo; 52<br>
+          3.3. Comentarios y legibilidad 52<br>
+          3.4. El encabezado de la clase 54<br>
+          3.5. El encabezado del método main 55<br>
+          3.6. Paréntesis de llave 56<br>
+          3.7.  System.out.println 56<br>
+          3.8. Compilación y  ejecución 58<br>
+          3.9. Identifi cadores  58<br>
+          3.10. Variables 59<br>
+          3.11. Sentencias de  asignación 60<br>
+          3.12. Sentencias de  inicialización 61<br>
+          3.13. Tipos de datos  numéricos: int, long,<br>
+          float, double 62<br>
+          3.14. Constantes 64<br>
+          3.15. Operadores  aritméticos 67<br>
+          3.16. Evaluación de  expresiones y precedencia<br>
+          de operadores 69<br>
+          3.17. Más operadores:  incremento, decremento<br>
+          y asignación compuesta 71<br>
+          3.18. Rastreo 73<br>
+          3.19. Conversión de  tipos 73<br>
+          3.20. Tipo char y  secuencias de escape 75<br>
+          3.21. Variables  primitivas versus variables<br>
+          de referencia 78<br>
+          3.22. Cadenas de  caracteres 79<br>
+          3.23. Entrada: la  clase Scanner 83<br>
+          3.24. Apartado GUI:  entrada y salida con el objeto<br>
+          JOptionPane (opcional) 87<br>
+          CAPÍTULO 4<br>
+          Sentencias de control 97<br>
+          4.1. Introducción 97<br>
+          4.2. Condiciones y  valores boolean 98<br>
+          4.3. Sentencias if 99<br>
+          4.4. Operador lógico  &amp;&amp; 102<br>
+          4.5. Operador lógico  || 105<br>
+          4.6. Operador lógico  ! 107<br>
+          4.7. Sentencia switch  108<br>
+          4.8. Ciclo while 112<br>
+          4.9. Ciclo do 115<br>
+          4.10. Ciclo for 116<br>
+          4.11. Resolución del  problema de qué<br>
+          ciclo utilizar 120<br>
+          4.12. Ciclos anidados  121<br>
+          4.13. Variables  boolean 123<br>
+          4.14. Validación de  entradas 125<br>
+          4.15. Resolución de  problemas con lógica<br>
+          boolean  (opcional) 127<br>
+          00FrontMatter(i-xxxiv).indd  vii 5/3/09 10:15:43<br>
+          CAPÍTULO 5<br>
+          Utilización de métodos preconstruidos 137<br>
+          5.1. Introducción 137<br>
+          5.2. La biblioteca  API 138<br>
+          5.3. Clase Math 141<br>
+          5.4. Clases  envoltorio (wrapper) para tipos primitivos 146<br>
+          5.5. Clase Character  149<br>
+          5.6. Métodos de  String 150<br>
+          5.7. Salida  formateada con el método printf 156<br>
+          5.8. Resolución de  problemas con números aleatorios<br>
+          (opcional) 159<br>
+          5.9. Apartado GUI:  diseño de imágenes, líneas, rectángulos<br>
+          y óvalos en applets de Java (opcional) 164<br>
+          CAPÍTULO 6<br>
+          Programación orientada a objetos 176<br>
+          6.1. Introducción 176<br>
+          6.2. Introducción a  la programación orientada<br>
+          a objetos 177<br>
+          6.3. Primera clase  con POO 180<br>
+          6.4. Clase controladora  183<br>
+          6.5. Objeto llamado,  referencia this 186<br>
+          6.6. Variables de  instancia 188<br>
+          6.7. Rastreo de un  programa con POO 190<br>
+          6.8. Diagramas UML de  clase 194<br>
+          6.9. Variables  locales 195<br>
+          6.10. La sentencia  return 198<br>
+          6.11. Paso de  argumentos 200<br>
+          6.12. Métodos  especializados: de acceso, de mutación<br>
+          y boolean 202<br>
+          6.13. Resolución de  problemas con simulación<br>
+          (opcional) 205<br>
+          CAPÍTULO 7<br>
+          Programación orientada a objetos:<br>
+          detalles adicionales 220<br>
+          7.1. Introducción 220<br>
+          7.2. Creación de  objetos: un análisis detallado 221<br>
+          7.3. Asignando una  referencia 222<br>
+          7.4. Objetos de  prueba para igualdad 226<br>
+          7.5. Paso de  referencias como argumentos 230<br>
+          7.6. Encadenamiento  de llamadas a métodos 233<br>
+          7.7. Métodos  sobrecargados 235<br>
+          7.8. Constructores  238<br>
+          7.9. Constructores  sobrecargados 244<br>
+          7.10. Resolución de  problemas con diversas clases 247<br>
+          CAPÍTULO 8<br>
+          Ingeniería de software 263<br>
+          8.1. Introducción 263<br>
+          8.2. Convenciones de  estilo para codifi car 264<br>
+          8.3. Métodos de ayuda  272<br>
+          8.4. Encapsulamiento  (con variables de instancia<br>
+          y variables locales) 274<br>
+          8.5. Filosofía de  diseño 277<br>
+          8.6. Diseño  arriba-abajo 278<br>
+          8.7. Diseño  ascendente 287<br>
+          8.8. Diseño basado en  casos 288<br>
+          8.9. Mejoramiento  iterativo 289<br>
+          8.10. Método  controlador de fusión en una clase<br>
+          controlada 291<br>
+          8.11. Acceso de  variables de instancia sin la utilización<br>
+          del this 292<br>
+          8.12. Resolución de  problemas con el API de la clase<br>
+          Calendar (opcional) 294<br>
+          8.13. Apartado GUI:  resolución de problemas mediante<br>
+          tarjetas CRC (opcional) 296<br>
+          CAPÍTULO 9<br>
+          Clases con miembros de clase 308<br>
+          9.1. Introducción 308<br>
+          9.2. Variables de  clase 309<br>
+          9.3. Métodos de clase  311<br>
+          9.4. Constantes  nombradas 314<br>
+          9.5. Escritura de su  propia clase Utility 316<br>
+          9.6. Utilización de  miembros de clase en conjunción<br>
+          con miembros de instancia 317<br>
+          9.7. Resolución de  problemas con miembros de clase<br>
+          y miembros de instancia en una clase<br>
+          de listas ligadas (opcional) 320<br>
+          CAPÍTULO10<br>
+          Arreglos y listas de arreglos 331<br>
+          10.1. Introducción  331<br>
+          10.2. Fundamentos de  arreglos 332<br>
+          10.3. Declaración y  creación de arreglos 335<br>
+          10.4. Propiedad  length en un arreglo y arreglos<br>
+          parcialmente llenos 337<br>
+          10.5. Copia de un  arreglo 339<br>
+          10.6. Resolución de  problemas mediante casos con<br>
+          arreglos 341<br>
+          10.7. Búsqueda de un  arreglo 347<br>
+          10.8. Ordenamiento de  un arreglo 351<br>
+          10.9. Arreglos de dos  dimensiones 354<br>
+          10.10. Arreglos de  objetos 360<br>
+          10.11. La clase  ArrayList 364<br>
+          viii  Contenido<br>
+          00FrontMatter(i-xxxiv).indd  viii 5/3/09 10:15:45<br>
+          10.12. Almacenamiento de primitivos en  una<br>
+          lista de arreglos 370<br>
+          10.13. Ejemplo de  lista de arreglo utilizando objetos<br>
+          anónimos y el ciclo for-each 372<br>
+          10.14. Lista de  arreglo versus arreglos estándar 378<br>
+          CAPÍTULO 11<br>
+          Detalles de tipo y mecanismos<br>
+          de codificación alternativa 388<br>
+          11.1. Introducción  388<br>
+          11.2. Tipos entero y  de punto fl otante 389<br>
+          11.3. Tipo char y el  conjunto de caracteres ASCII 392<br>
+          11.4. Conversiones de  tipo 395<br>
+          11.5. Modos prefi  jo/sufi jo para operadores de incremento/<br>
+          decremento 397<br>
+          11.6. Asignaciones  insertadas 400<br>
+          11.7. Expresiones del  operador condicional 401<br>
+          11.8. Revisión de  evaluación de expresiones 403<br>
+          11.9. Evaluación de  cortocircuito 405<br>
+          11.10. Declaración  vacía 407<br>
+          11.11. Declaración  break dentro de un ciclo 408<br>
+          11.12. Detalles para  el encabezado del ciclo for 410<br>
+          11.13. Apartado GUI:  Unicode (opcional) 411<br>
+          CAPÍTULO12<br>
+          Agregación, composición y herencia 422<br>
+          12.1. Introducción  422<br>
+          12.2. Composición y  agregación 423<br>
+          12.3. Revisión de  herencia 428<br>
+          12.4. Implementación  de jerarquía Persona/Empleado/<br>
+          TiempoCompleto 433<br>
+          12.5. Constructores  en una subclase 435<br>
+          12.6. Sobreposición  de métodos 436<br>
+          12.7. Utilización de  jerarquía Persona/Empleado/<br>
+          TiempoCompleto 438<br>
+          12.8. El modifi cador  de acceso final 439<br>
+          12.9. Utilización de  herencia con agregación y<br>
+          composición 439<br>
+          12.10. Práctica de  diseño con un ejemplo de juego<br>
+          de cartas 440<br>
+          12.11. Resolución de  problema con clases de asociación<br>
+          (opcional) 447<br>
+          CAPÍTULO13<br>
+          Herencia y polimorfismo 455<br>
+          13.1. Introducción  455<br>
+          13.2. La clase Objeto  y promoción automática<br>
+          de tipos 456<br>
+          13.3. El método  equals 456<br>
+          13.4. El método  toString 460<br>
+          13.5. Polimorfi smo y  vinculación dinámica 464<br>
+          13.6. Asignaciones  entre clases en una jerarquía<br>
+          de clases 468<br>
+          13.7. Polimorfi smo  con arreglos 469<br>
+          13.8. Métodos y  clases abstractas 474<br>
+          13.9. Interfaces 477<br>
+          13.10. El modifi  cador de acceso protected 483<br>
+          13.11. Apartado GUI:  gráfi cas en tres dimensiones<br>
+          (opcional) 485<br>
+          CAPÍTULO14<br>
+          Manejo de excepciones 497<br>
+          14.1. Introducción  497<br>
+          14.2. Revisión de  excepciones y mensajes de excepción 498<br>
+          14.3. Utilización de  los bloques try y catch para manejo<br>
+          de llamadas &ldquo;peligrosas&rdquo; a métodos 498<br>
+          14.4. Ejemplo de  trazado lineal 501<br>
+          14.5. Detalles de los  bloques try 503<br>
+          14.6. Dos categorías  de excepciones: comprobadas<br>
+          y no comprobadas 505<br>
+          14.7. Excepciones no  comprobadas 507<br>
+          14.8. Excepciones  comprobadas 509<br>
+          14.9. La clase  Exception y su método getMessage 512<br>
+          14.10. Bloques catch  múltiples 513<br>
+          14.11. Comprensión de  los mensajes de excepción 516<br>
+          14.12. Utilización de  throws &lt;tipo-excepción&gt; para<br>
+          posponer el catch 519<br>
+          14.13. Apartado GUI y  solución de problemas: ejemplo<br>
+          revisitado de trazado de líneas (opcional) 521<br>
+          CAPÍTULO15<br>
+          Archivos 537<br>
+          15.1. Introducción  537<br>
+          15.2. Clases API de  Java que se precisa importar 538<br>
+          15.3. Salida a  archivos de texto 540<br>
+          15.4. Lectura de  archivos de texto 543<br>
+          15.5. Generador de  archivos HTML 547<br>
+          15.6. Formato de  archivo de texto versus formato<br>
+          de archivo binario 549<br>
+          15.7. Archivo binario  553<br>
+          15.8. Archivo objeto  556<br>
+          15.9. La clase File  560<br>
+          15.10. Apartado GUI:  la clase JFileChooser<br>
+          (opcional) 561<br>
+          CAPÍTULO16<br>
+          Fundamentos de programación GUI 576<br>
+          16.1. Introducción  577<br>
+          16.2. Fundamentos de  programación de manejo<br>
+          de eventos 577<br>
+          16.3. Un sencillo  programa de ventanas 579<br>
+          16.4. Clase JFrame  581<br>
+          16.5. Componentes en  Java 582<br>
+          Contenido  ix<br>
+          00FrontMatter(i-xxxiv).indd  ix 5/3/09 10:15:46<br>
+          16.6. Componente JLabel 583<br>
+          16.7. Componente  JTextField 584<br>
+          16.8. Programa Saludo  585<br>
+          16.9. Componente  oyentes 585<br>
+          16.10. Clases  internas 588<br>
+          16.11. Clases  internas anónimas 589<br>
+          16.12. Componente  JButton 592<br>
+          16.13. Ventanas de  diálogo y clase JOptionPane 597<br>
+          16.14. Distinción  entre múltiples eventos 600<br>
+          16.15. Utilización de  getActionCommand para distinción<br>
+          entre múltiples eventos 602<br>
+          16.16. Color 602<br>
+          16.17. ¿Cómo se  agrupan las clases GUI? 606<br>
+          16.18. Oyentes de  ratón y de imágenes (opcional) 609<br>
+          CAPÍTULO17<br>
+          Programación GUI: distribución de componentes,<br>
+          componentes GUI adicionales 620<br>
+          17.1. Introducción  621<br>
+          17.2. Diseño GUI y  gestores de distribución 621<br>
+          17.3. Gestor  FlowLayout 623<br>
+          17.4. Gestor  BorderLayout 625<br>
+          17.5. Gestor  GridLayout 630<br>
+          17.6. Ejemplo de  juego de gato 633<br>
+          17.7. Resolución de  problema: triunfo en el juego<br>
+          de gato (opcional) 634<br>
+          17.8. Gestores de  distribución insertados 638<br>
+          17.9. Clase JPanel  639<br>
+          17.10. Programa  calculadoraMatematica 640<br>
+          17.11. Componente  JtextArea 641<br>
+          17.12. Componente  JcheckBox 646<br>
+          17.13. Componente  JradioButton 648<br>
+          17.14. Componente  JcomboBox 650<br>
+          17.15. Ejemplo  aplicación de tarea 652<br>
+          17.16. Más  componentes de Swing 658<br>
+          Apéndices<br>
+          Apéndice 1 Conjunto de caracteres Unicode/ASCII<br>
+          con códigos hexadecimales 667<br>
+          Apéndice 2 Precedencia de operadores 670<br>
+          Apéndice 3 Palabras reservadas en Java 672<br>
+          Apéndice 4 Paquetes 676<br>
+          Apéndice 5 Convenciones de estilo de codifi cación<br>
+          en Java 680<br>
+          Apéndice 6 Javadoc 691<br>
+          Apéndice 7 Diagramas UML 697<br>
+          Apéndice 8 Recursión 702<br>
+          Apéndice 9 Multithreads 711<br>
+          Índice 720</p>
+      </div>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="http://www.juntos.gob.pe/modulos/mod_legal/archivos/1NTR0DUCC10N%20%204%20L4%209R06R4M4C10N%20C0N%20J4V4.pdf">http://www.juntos.gob.pe/modulos/mod_legal/archivos/1NTR0DUCC10N%20%204%20L4%209R06R4M4C10N%20C0N%20J4V4.pdf</a>
+ <br>
+  compra <br>
+<a href="http://articulo.mercadolibre.com.mx/MLM-564533442-libro-programacion-en-java-introduccion-a-la-programacion-_JM">http://articulo.mercadolibre.com.mx/MLM-564533442-libro-programacion-en-java-introduccion-a-la-programacion-_JM</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div>
+
+
+<div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Estructura de datos 3ra Edicion </h1>
+      </div>
+       <div data-role="content" align="center">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','imagenes/libro 3.2.jpg',1)"><img src="imagenes/libro 3.1.jpg" width="450" height="600" id="Image10"></a> </div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div>
+        <p>Capítulo 1: Estructuras fundamentales<br>
+          Capítulo 2: Arreglos multidimensionales representados en arreglos unidimensionales<br>
+          Capítulo 3: Pilas y colas<br>
+          Capítulo 4: Recursión<br>
+          Capítulo 5: Listas<br>
+          Capítulo 6: Árboles<br>
+          Capítulo 7: Graficas<br>
+          Capítulo 8: Métodos de ordenación<br>
+          Capítulo 9: Métodos de búsqueda</p>
+        <br>
+      </div>
+     </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro 3.png" width="450" height="600"> <br>
+     <img src="imagenes/libro 3.4.png" width="450" height="600"><br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+ <a href="https://docs.google.com/file/d/0B_XimPSyUDLcM2ZtU3VCVHhLUUk/view">https://docs.google.com/file/d/0B_XimPSyUDLcM2ZtU3VCVHhLUUk/view</a> 
+ <br>
+ <br>
+  compra <br>
+<a href="http://articulo.mercadolibre.com.mx/MLM-565532703-estructuras-de-datos-libro-_JM">http://articulo.mercadolibre.com.mx/MLM-565532703-estructuras-de-datos-libro-_JM</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div>
+
+
+<div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Comunicacion y redes de Computadoras </h1>
+      </div>
+       <div data-role="content" align="center">
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/libro 4.1.jpg',1)"><img src="imagenes/libro 4.png" width="450" height="600" id="Image13"></a></div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div>
+        <p><strong>Contenido</strong></p>
+        <p>Prólogo.</p>
+        <p>Capítulo 0. Guía del lector</p>
+        <p><strong>PARTE I: Descripción general</strong><br>
+          Capítulo 1. Introducción a las comunicaciones de datos y redes<br>
+          Capítulo 2. Arquitectura de protocolos</p>
+        <p><strong>PARTE II: Comunicaciones de datos</strong><br>
+          Capítulo 3. Transmisión de datos<br>
+          Capítulo 4. Medios de transmisión<br>
+          Capítulo 5. Técnicas para la codificación de señales<br>
+          Capítulo 6. Técnicas de comunicación de datos digitales<br>
+          Capítulo 7. Protocolos de control del enlace de datos<br>
+          Capítulo 8. Multiplexación<br>
+          Capítulo 9. Espectro expandido</p>
+        <p><strong>PARTE III: Redes de área amplia</strong><br>
+          Capítulo 10. Conmutación de circuitos y de paquetes<br>
+          Capítulo 11. Modo de transferencia asíncrono<br>
+          Capítulo 12. Encaminamiento en redes conmutadas<br>
+          Capítulo 13. Congestión en redes de datos<br>
+          Capítulo 14. Redes celulares inalámbricas</p>
+        <p><strong>PARTE IV: Redes de área local</strong><br>
+          Capítulo 15. Visión general de las redes de área local<br>
+          Capítulo 16. Redes LAN de alta velocidad<br>
+          Capítulo 17. Redes LAN inalámbricas</p>
+        <p><strong>PARTE V: Protocolos de interconexión</strong><br>
+          Capítulo 18. Protocolos de interconexión de redes<br>
+          Capítulo 19. Funcionamiento de la interconexión de redes<br>
+          Capítulo 20. Protocolos de transporte<br>
+          Capítulo 21. Seguridad en redes<br>
+          Capítulo 22. Aplicaciones distribuidas</p>
+        <p>Apéndice A. RFC citados en este libro<br>
+          Apéndice B. Análisis de Fourier<br>
+          Apéndice C. Programación de sockets<br>
+          Apéndice D. Proyectos para la enseñanza de comunicaciones de datos y redes de computadores<br>
+          Glosario.<br>
+          Bibliografía.<br>
+          Índice alfabético.</p>
+      </div>
+     </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro 3.png" width="450" height="600"> <br>
+     <img src="imagenes/libro 3.4.png" width="450" height="600"><br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="http://www.freelibros.org/redes/comunicaciones-y-redes-de-computadores-7ma-edicion-william-stallings.html">http://www.freelibros.org/redes/comunicaciones-y-redes-de-computadores-7ma-edicion-william-stallings.html</a>
+<br>
+  compra <br>
+<a href="http://articulo.mercadolibre.com.mx/MLM-568997450-libro-comunicaciones-y-redes-de-computadores-7ma-ed-v-pdf-_JM">http://articulo.mercadolibre.com.mx/MLM-568997450-libro-comunicaciones-y-redes-de-computadores-7ma-ed-v-pdf-_JM</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div>
+             
+
+<div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> ASP.NET 4.0 </h1>
+      </div>
+       <div data-role="content" align="center">
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/libro 6.1.jpg',1)"><img src="imagenes/libro 6.jpg" width="450" height="600" id="Image14"></a></div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div>
+        <p>
+Contenidos de un vistazo <br>
+          Fundamentos de la Parte I <br>
+          1 Bases de la aplicación Web 3 <br>
+          2 Aspectos básicos de la aplicación ASP.NET 25 <br>
+          3 El modelo de representación de páginas 59 <br>
+          4 Controles personalizados rendidos 79 <br>
+          5 Controles compuestos 101 <br>
+          6 Control Potpourri 119 <br>
+          Parte II Características avanzadas <br>
+          7 Una apariencia consistente 143 <br>
+          8 Configuración 163 <br>
+          9 Inicio de sesión 181 <br>
+          10 Data Binding 207 <br>
+          11 Navegación del sitio web 237 <br>
+          12 Personalización 257 <br>
+          13 Web Parts 267 <br>
+          Parte III Almacenamiento en caché y gestión del estado <br>
+          14 Estado de la sesión 291 <br>
+          15 Caché de datos de aplicación 321 <br>
+          16 Salida de almacenamiento en caché 343 <br>
+          Parte IV Diagnóstico y Plomería <br>
+          17 Diagnóstico y depuración 363 <br>
+          18 La clase HttpApplication y los módulos HTTP 385 <br>
+          19 HTTP Handlers 405 <br>
+          Vi Contenido de un vistazo <br>
+          Datos dinámicos de la parte V, XBAP, MVC, AJAX y Silverlight <br>
+          20 Dynamic Data 423 <br>
+          21 Contenido ASP.NET y WPF 433 <br>
+          22 El ASP.NET MVC Framework449 <br>
+          23 AJAX 473 <br>
+          24 Silverlight y ASP.NET 513 <br>
+          Parte VI Servicios e implementación <br>
+          25 Windows Communication Foundation 555 <br>
+          26 Despliegue 575 </ p>
+      </div>
+     </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro 7.png" width="450" height="600"> <br>
+     <img src="imagenes/libro 7.1.png" width="450" height="600"><br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="https://thesharad.files.wordpress.com/2010/11/asp-net-4-step-by-step.pdf
+">https://thesharad.files.wordpress.com/2010/11/asp-net-4-step-by-step.pdf</a>  
+<br>
+compra <br>
+<a href="https://www.casadellibro.com/libro-aspnet-40/9788441528123/1798954">https://www.casadellibro.com/libro-aspnet-40/9788441528123/1798954</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div>             
+             
+<div data-role="page" id="pagina6" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Redes de Computadoras </h1>
+      </div>
+       <div data-role="content" align="center">
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/libro 8.1.png',1)"><img src="imagenes/libro 8.jpg" width="450" height="600" id="Image17"></a></div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+    <div>
+      <p>CONTENIDO<br>
+        PREFACIO<br>
+        1 INTRODUCCIÓN 1<br>
+        1.1 USOS DE LAS REDES DE COMPUTADORAS 3<br>
+        1.1.1 Aplicaciones de negocios 3<br>
+        1.1.2 Aplicaciones domésticas 6<br>
+        1.1.3 Usuarios móviles 9<br>
+        1.1.4 Temas sociales 12<br>
+        1.2 HARDWARE DE REDES 14<br>
+        1.2.1 Redes de área local 16<br>
+        1.2.2 Redes de área metropolitana 18<br>
+        1.2.3 Redes de área amplia 19<br>
+        1.2.4 Redes inalámbricas 21<br>
+        1.2.5 Redes domésticas 23<br>
+        1.2.6 Interredes 25<br>
+        1.3 SOFTWARE DE REDES 26<br>
+        1.3.1 Jerarquías de protocolos 26<br>
+        1.3.2 Aspectos de diseño de las capas 30<br>
+        1.3.3 Servicios orientados a la conexión y no orientados a  la conexión 32<br>
+        1.3.4 Primitivas de servicio 34<br>
+        1.3.5 Relación de servicios a protocolos 36<br>
+        vii<br>
+        CONTENIDO<br>
+        1.4 MODELOS DE REFERENCIA 37<br>
+        1.4.1 El modelo de referencia OSI 37<br>
+        1.4.2 El modelo de referencia TCP/IP 41<br>
+        1.4.3 Comparación entre los modelos de referencia OSI y  TCP/IP 44<br>
+        1.4.4 Crítica al modelo OSI y los protocolos 46<br>
+        1.4.5 Crítica del modelo de referencia TCP/IP 48<br>
+        1.5 REDES DE EJEMPLO 49<br>
+        1.5.1 Internet 50<br>
+        1.5.2 Redes orientadas a la conexión: X.25, Frame Relay y  ATM 59<br>
+        1.5.3 Ethernet 65<br>
+        1.5.4 LANs inalámbricas: 802.11 68<br>
+        1.6 ESTANDARIZACIÓN DE REDES 71<br>
+        1.6.1 Quién es quién en el mundo de las telecomunicaciones  71<br>
+        1.6.2 Quién es quién en los estándares internacionales 74<br>
+        1.6.3 Quién es quién en el mundo de los estándares de  Internet 75<br>
+        1.7 UNIDADES MÉTRICAS 77<br>
+        1.8 PANORAMA DEL RESTO DEL LIBRO 78<br>
+        1.9 RESUMEN 80<br>
+        2 LA CAPA FÍSICA 85<br>
+        2.1 LA BASE TEÓRICA DE LA COMUNICACIÓN DE DATOS 85<br>
+        2.1.1 El análisis de Fourier 86<br>
+        2.1.2 Señales de ancho de banda limitado 86<br>
+        2.1.3 La tasa de datos máxima de un canal 89<br>
+        2.2 MEDIOS DE TRANSMISIÓN GUIADOS 90<br>
+        2.2.1 Medios magnéticos 90<br>
+        2.2.2 Par trenzado 91<br>
+        2.2.3 Cable coaxial 92<br>
+        2.2.4 Fibra óptica 93<br>
+        2.3 TRANSMISIÓN INALÁMBRICA 100<br>
+        2.3.1 El espectro electromagnético 100<br>
+        2.3.2 Radiotransmisión 103<br>
+        viii<br>
+        CONTENIDO ix<br>
+        2.3.3 Transmisión por microondas 104<br>
+        2.3.4 Ondas infrarrojas y milimétricas 106<br>
+        2.3.5 Transmisión por ondas de luz 107<br>
+        2.4 SATÉLITES DE COMUNICACIONES 109<br>
+        2.4.1 Satélites geoestacionarios 109<br>
+        2.4.2 Satélites de Órbita Terrestre Media 113<br>
+        2.4.3 Satélites de Órbita Terrestre Baja 114<br>
+        2.4.4 Satélites en comparación con fibra óptica 117<br>
+        2.5 LA RED TELEFÓNICA PÚBLICA CONMUTADA 118<br>
+        2.5.1 Estructura del sistema telefónico 119<br>
+        2.5.2 La política de los teléfonos 122<br>
+        2.5.3 El circuito local: módems, ADSL e inalámbrico 124<br>
+        2.5.4 Troncales y multiplexión 137<br>
+        2.5.5 Conmutación 146<br>
+        2.6 EL SISTEMA TELEFÓNICO MÓVIL 152<br>
+        2.6.1 Teléfonos móviles de primera generación 153<br>
+        2.6.2 Teléfonos móviles de segunda generación: voz digital  157<br>
+        2.6.3 Teléfonos móviles de tercera generación: voz y datos  digitales 166<br>
+        2.7 TELEVISIÓN POR CABLE 169<br>
+        2.7.1 Televisión por antena comunal 169<br>
+        2.7.2 Internet a través de cable 170<br>
+        2.7.3 Asignación de espectro 172<br>
+        2.7.4 Módems de cable 173<br>
+        2.7.5 ADSL en comparación con el cable 175<br>
+        2.8 RESUMEN 177<br>
+        3 LA CAPA DE ENLACE DE DATOS 183<br>
+        3.1 CUESTIONES DE DISEÑO DE LA CAPA DE ENLACE DE DATOS 184<br>
+        3.1.1 Servicios proporcionados a la capa de red 184<br>
+        3.1.2 Entramado 187<br>
+        3.1.3 Control de errores 191<br>
+        3.1.4 Control de flujo 192<br>
+        CONTENIDO<br>
+        3.2 DETECCIÓN Y CORRECCIÓN DE ERRORES 192<br>
+        3.2.1 Códigos de corrección de errores 193<br>
+        3.2.2 Códigos de detección de errores 196<br>
+        3.3 PROTOCOLOS ELEMENTALES DE ENLACE DE DATOS 200<br>
+        3.3.1 Un protocolo símplex sin restricciones 204<br>
+        3.3.2 Protocolo símplex de parada y espera 206<br>
+        3.3.3 Protocolo símplex para un canal con ruido 208<br>
+        3.4 PROTOCOLOS DE VENTANA CORREDIZA 211<br>
+        3.4.1 Un protocolo de ventana corrediza de un bit 214<br>
+        3.4.2 Protocolo que usa retroceso N 216<br>
+        3.4.3 Protocolo que utiliza repetición selectiva 223<br>
+        3.5 VERIFICACIÓN DE LOS PROTOCOLOS 229<br>
+        3.5.1 Modelos de máquinas de estado finito 229<br>
+        3.5.2 Modelos de red de Petri 232<br>
+        3.6 EJEMPLOS DE PROTOCOLOS DE ENLACE DE DATOS 234<br>
+        3.6.1 HDLC—Control de Enlace de Datos de Alto Nivel 234<br>
+        3.6.2 La capa de enlace de datos en Internet 237<br>
+        3.7 RESUMEN 242<br>
+        4 LA SUBCAPA DE CONTROL DE ACCESO AL MEDIO 247<br>
+        4.1 EL PROBLEMA DE ASIGNACIÓN DEL CANAL 248<br>
+        4.1.1 Asignación estática de canal en LANs y MANs 248<br>
+        4.1.2 Asignación dinámica de canales en LANs y MANs 249<br>
+        4.2 PROTOCOLOS DE ACCESO MÚLTIPLE 251<br>
+        4.2.1 ALOHA 251<br>
+        4.2.2 Protocolos de acceso múltiple con detección de  portadora 255<br>
+        4.2.3 Protocolos libres de colisiones 259<br>
+        4.2.4 Protocolos de contención limitada 261<br>
+        4.2.5 Protocolos de acceso múltiple por división de longitud  de onda 265<br>
+        4.2.6 Protocolos de LANs inalámbricas 267<br>
+        x<br>
+        CONTENIDO<br>
+        4.3  ETHERNET 271<br>
+        4.3.1  Cableado Ethernet 271<br>
+        4.3.2  Codificación Manchester 274<br>
+        4.3.3 El protocolo de subcapa MAC de Ethernet 275<br>
+        4.3.4 Algoritmo de retroceso exponencial binario 278<br>
+        4.3.5 Desempeño de Ethernet 279<br>
+        4.3.6 Ethernet conmutada 281<br>
+        4.3.7 Fast Ethernet 283<br>
+        4.3.8 Gigabit Ethernet 286<br>
+        4.3.9 Estándar IEEE 802.2: control lógico del enlace 290<br>
+        4.3.10 Retrospectiva de Ethernet 291<br>
+        4.4 LANS INALÁMBRICAS 292<br>
+        4.4.1 La pila de protocolos del 802.11 292<br>
+        4.4.2 La capa física del 802.11 293<br>
+        4.4.3 El protocolo de la subcapa MAC del 802.11 295<br>
+        4.4.4 La estructura de trama 802.11 299<br>
+        4.4.5 Servicios 301<br>
+        4.5 BANDA ANCHA INALÁMBRICA 302<br>
+        4.5.1 Comparación entre los estándares 802.11 y 802.16 303<br>
+        4.5.2 La pila de protocolos del estándar 802.16 305<br>
+        4.5.3 La capa física del estándar 802.16 306<br>
+        4.5.4 El protocolo de la subcapa MAC del 802.16 307<br>
+        4.5.5 La estructura de trama 802.16 309<br>
+        4.6 BLUETOOTH 310<br>
+        4.6.1 Arquitectura de Bluetooth 311<br>
+        4.6.2 Aplicaciones de Bluetooth 312<br>
+        4.6.3 La pila de protocolos de Bluetooth 313<br>
+        4.6.4 La capa de radio de Bluetooth 314<br>
+        4.6.5 La capa de banda base de Bluetooth 315<br>
+        4.6.6 La capa L2CAP de Bluetooth 316<br>
+        4.6.7 Estructura de la trama de Bluetooth 316<br>
+        4.7 CONMUTACIÓN EN LA CAPA DE ENLACE DE DATOS 317<br>
+        4.7.1 Puentes de 802.x a 802.y 319<br>
+        4.7.2 Interconectividad local 322<br>
+        4.7.3 Puentes con árbol de expansión 323<br>
+        4.7.4 Puentes remotos 325<br>
+        4.7.5 Repetidores, concentradores, puentes, conmutadores,  enrutadores y puertas<br>
+        de enlace 326<br>
+        4.7.6 LANs virtuales 328<br>
+        4.8 RESUMEN 336<br>
+        xi<br>
+        CONTENIDO<br>
+        5 LA CAPA DE RED 343<br>
+        5.1 ASPECTOS DE DISEÑO DE LA CAPA DE RED 343<br>
+        5.1.1 Conmutación de paquetes de almacenamiento y reenvío  344<br>
+        5.1.2 Servicios proporcionados a la capa de transporte 344<br>
+        5.1.3 Implementación del servicio no orientado a la conexión  345<br>
+        5.1.4 Implementación del servicio orientado a la conexión  347<br>
+        5.1.5 Comparación entre las subredes de circuitos virtuales  y las de<br>
+        datagramas 348<br>
+        5.2 ALGORITMOS DE ENRUTAMIENTO 350<br>
+        5.2.1 Principio de optimización 352<br>
+        5.2.2 Enrutamiento por la ruta más corta 353<br>
+        5.2.3 Inundación 355<br>
+        5.2.4 Enrutamiento por vector de distancia 357<br>
+        5.2.5 Enrutamiento por estado del enlace 360<br>
+        5.2.6 Enrutamiento jerárquico 366<br>
+        5.2.7 Enrutamiento por difusión 368<br>
+        5.2.8 Enrutamiento por multidifusión 370<br>
+        5.2.9 Enrutamiento para hosts móviles 372<br>
+        5.2.10 Enrutamiento en redes ad hoc 375<br>
+        5.2.11 Búsqueda de nodos en redes de igual a igual 380<br>
+        5.3 ALGORITMOS DE CONTROL DE CONGESTIÓN 384<br>
+        5.3.1 Principios generales del control de congestión 386<br>
+        5.3.2 Políticas de prevención de congestión 388<br>
+        5.3.3 Control de congestión en subredes de circuitos  virtuales 389<br>
+        5.3.4 Control de congestión en subredes de datagramas 391<br>
+        5.3.5 Desprendimiento de carga 394<br>
+        5.3.6 Control de fluctuación 395<br>
+        5.4 CALIDAD DEL SERVICIO 397<br>
+        5.4.1 Requerimientos 397<br>
+        5.4.2 Técnicas para alcanzar buena calidad de servicio 398<br>
+        5.4.3 Servicios integrados 409<br>
+        5.4.4 Servicios diferenciados 412<br>
+        5.4.5 Conmutación de etiquetas y MPLS 415<br>
+        5.5 INTERCONECTIVIDAD 418<br>
+        5.5.1 Cómo difieren las redes 419<br>
+        5.5.2 Conexión de redes 420<br>
+        5.5.3 Circuitos virtuales concatenados 422<br>
+        5.5.4 Interconectividad no orientada a la conexión 423<br>
+        xii<br>
+        CONTENIDO xiii<br>
+        5.5.5 Entunelamiento 425<br>
+        5.5.6 Enrutamiento entre redes 426<br>
+        5.5.7 Fragmentación 427<br>
+        5.6 LA CAPA DE RED DE INTERNET 431<br>
+        5.6.1 El protocolo IP 433<br>
+        5.6.2 Direcciones IP 436<br>
+        5.6.3 Protocolos de Control en Internet 449<br>
+        5.6.4 OSPF—Protocolos de Enrutamiento de Puerta de Enlace  Interior 454<br>
+        5.6.5 BGP—Protocolo de Puerta de Enlace de Frontera 459<br>
+        5.6.6 Multidifusión de Internet 461<br>
+        5.6.7 IP móvil 462<br>
+        5.6.8 IPv6 464<br>
+        5.7 RESUMEN 473<br>
+        6 LA CAPA DE TRANSPORTE 481<br>
+        6.1 EL SERVICIO DE TRANSPORTE 481<br>
+        6.1.1 Servicios proporcionados a las capas superiores 481<br>
+        6.1.2 Primitivas del servicio de transporte 483<br>
+        6.1.3 Sockets de Berkeley 487<br>
+        6.1.4 Un ejemplo de programación de sockets: un servidor de  archivos<br>
+        de Internet 488<br>
+        6.2 ELEMENTOS DE LOS PROTOCOLOS DE TRANSPORTE 492<br>
+        6.2.1 Direccionamiento 493<br>
+        6.2.2 Establecimiento de una conexión 496<br>
+        6.2.3 Liberación de una conexión 502<br>
+        6.2.4 Control de flujo y almacenamiento en búfer 506<br>
+        6.2.5 Multiplexión 510<br>
+        6.2.6 Recuperación de caídas 511<br>
+        6.3 UN PROTOCOLO DE TRANSPORTE SENCILLO 513<br>
+        6.3.1 Las primitivas de servicio de ejemplo 513<br>
+        6.3.2 La entidad de transporte de ejemplo 515<br>
+        6.3.3 El ejemplo como máquina de estados finitos 522<br>
+        6.4 LOS PROTOCOLOS DE TRANSPORTE DE INTERNET: UDP 524<br>
+        6.4.1 Introducción a UDP 525<br>
+        6.4.2 Llamada a procedimiento remoto 526<br>
+        6.4.3 El protocolo de transporte en tiempo real 529<br>
+        CONTENIDO<br>
+        6.5 LOS PROTOCOLOS DE TRANSPORTE DE INTERNET: TCP 532<br>
+        6.5.1 Introducción a TCP 532<br>
+        6.5.2 El modelo del servicio TCP 533<br>
+        6.5.3 El protocolo TCP 535<br>
+        6.5.4 El encabezado del segmento TCP 536<br>
+        6.5.5 Establecimiento de una conexión TCP 539<br>
+        6.5.6 Liberación de una conexión TCP 541<br>
+        6.5.7 Modelado de administración de conexiones TCP 541<br>
+        6.5.8 Política de transmisión del TCP 543<br>
+        6.5.9 Control de congestión en TCP 547<br>
+        6.5.10 Administración de temporizadores del TCP 550<br>
+        6.5.11 TCP y UDP inalámbricos 553<br>
+        6.5.12 TCP para Transacciones 555<br>
+        6.6 ASPECTOS DEL DESEMPEÑO 557<br>
+        6.6.1 Problemas de desempeño en las redes de cómputo 557<br>
+        6.6.2 Medición del desempeño de las redes 560<br>
+        6.6.3 Diseño de sistemas para un mejor desempeño 562<br>
+        6.6.4 Procesamiento rápido de las TPDUs 566<br>
+        6.6.5 Protocolos para redes de gigabits 569<br>
+        6.7 RESUMEN 573<br>
+        7 LA CAPA DE APLICACIÓN 579<br>
+        7.1 DNS—EL SISTEMA DE NOMBRES DE DOMINIO 579<br>
+        7.1.1 El espacio de nombres del DNS 580<br>
+        7.1.2 Registros de recursos 582<br>
+        7.1.3 Servidores de nombres 586<br>
+        7.2 CORREO ELECTRÓNICO 588<br>
+        7.2.1 Arquitectura y servicios 590<br>
+        7.2.2 El agente de usuario 591<br>
+        7.2.3 Formatos de mensaje 594<br>
+        7.2.4 Transferencia de mensajes 602<br>
+        7.2.5 Entrega final 605<br>
+        7.3 WORLD WIDE WEB 611<br>
+        7.3.1 Panorama de la arquitectura 612<br>
+        7.3.2 Documentos Web estáticos 629<br>
+        xiv<br>
+        CONTENIDO<br>
+        7.3.3 Documentos Web dinámicos 643<br>
+        7.3.4 HTTP—Protocolo de Transferencia de Hipertexto 651<br>
+        7.3.5 Mejoras de desempeño 656<br>
+        7.3.6 La Web inalámbrica 662<br>
+        7.4 MULTIMEDIA 674<br>
+        7.4.1 Introducción al audio digital 674<br>
+        7.4.2 Compresión de audio 676<br>
+        7.4.3 Audio de flujo continuo 679<br>
+        7.4.4 Radio en Internet 683<br>
+        7.4.5 Voz sobre IP 685<br>
+        7.4.6 Introducción al vídeo 692<br>
+        7.4.7 Compresión de vídeo 696<br>
+        7.4.8 Vídeo bajo demanda 704<br>
+        7.4.9 Mbone—Red dorsal de multidifusión 711<br>
+        7.5 RESUMEN 714<br>
+        8 SEGURIDAD EN REDES 721<br>
+        8.1 CRIPTOGRAFÍA 724<br>
+        8.1.1 Introducción a la criptografía 725<br>
+        8.1.2 Cifrados por sustitución 727<br>
+        8.1.3 Cifrados por transposición 729<br>
+        8.1.4 Rellenos de una sola vez 730<br>
+        8.1.5 Dos principios criptográficos fundamentales 735<br>
+        8.2 ALGORITMOS DE CLAVE SIMÉTRICA 737<br>
+        8.2.1 DES—El Estándar de Encriptación de Datos 738<br>
+        8.2.2 AES—El Estándar de Encriptación Avanzada 741<br>
+        8.2.3 Modos de cifrado 745<br>
+        8.2.4 Otros cifrados 750<br>
+        8.2.5 Criptoanálisis 750<br>
+        8.3 ALGORITMOS DE CLAVE PÚBLICA 752<br>
+        8.3.1 El algoritmo RSA 753<br>
+        8.3.2 Otros algoritmos de clave pública 755<br>
+        xv<br>
+        CONTENIDO<br>
+        8.4 FIRMAS DIGITALES 755<br>
+        8.4.1 Firmas de clave simétrica 756<br>
+        8.4.2 Firmas de clave pública 757<br>
+        8.4.3 Compendios de mensaje 759<br>
+        8.4.4 El ataque de cumpleaños 763<br>
+        8.5 ADMINISTRACIÓN DE CLAVES PÚBLICAS 765<br>
+        8.5.1 Certificados 765<br>
+        8.5.2 X.509 767<br>
+        8.5.3 Infraestructuras de clave pública 768<br>
+        8.6 SEGURIDAD EN LA COMUNICACIÓN 772<br>
+        8.6.1 Ipsec 772<br>
+        8.6.2 Firewalls 776<br>
+        8.6.3 Redes privadas virtuales 779<br>
+        8.6.4 Seguridad inalámbrica 780<br>
+        8.7 PROTOCOLOS DE AUTENTICACIÓN 785<br>
+        8.7.1 Autenticación basada en una clave secreta compartida  786<br>
+        8.7.2 Establecimiento de una clave compartida: el  intercambio de claves de<br>
+        Diffie-Hellman 791<br>
+        8.7.3 Autenticación que utiliza un centro de distribución de  claves 793<br>
+        8.7.4 Autenticación utilizando Kerberos 796<br>
+        8.7.5 Autenticación utilizando criptografía de clave pública  798<br>
+        8.8 SEGURIDAD DE CORREO ELECTRÓNICO 799<br>
+        8.8.1 PGP—Privacidad Bastante Buena 799<br>
+        8.8.2 PEM—Correo con Privacidad Mejorada 803<br>
+        8.8.3 S/MIME 804<br>
+        8.9 SEGURIDAD EN WEB 805<br>
+        8.9.1 Amenazas 805<br>
+        8.9.2 Asignación segura de nombres 806<br>
+        8.9.3 SSL—La Capa de Sockets Seguros 813<br>
+        8.9.4 Seguridad de código móvil 816<br>
+        8.10 ASPECTOS SOCIALES 819<br>
+        8.10.1 Privacidad 819<br>
+        8.10.2 Libertad de expresión 822<br>
+        8.10.3 Derechos de autor 826<br>
+        8.11 RESUMEN 828<br>
+        xvi<br>
+        CONTENIDO<br>
+        9 LISTA DE LECTURAS Y BIBLIOGRAFÍA 835<br>
+        9.1. SUGERENCIAS DE LECTURAS ADICIONALES 835<br>
+        9.1.1 Introducción y obras generales 836<br>
+        9.1.2 La capa física 838<br>
+        9.1.3 La capa de enlace de datos 840<br>
+        9.1.4 La subcapa de control de acceso al medio 840<br>
+        9.1.5 La capa de red 842<br>
+        9.1.6 La capa de transporte 844<br>
+        9.1.7 La capa de aplicación 844<br>
+        9.1.8 Seguridad en redes 846<br>
+        9.2 BIBLIOGRAFÍA EN ORDEN ALFABÉTICO 848<br>
+        ÍNDICE 869</p>
+    </div>
+    </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro 8.2.png" width="450" height="600"> <br>
+     <img src="imagenes/libro 8.3.png" width="450" height="600"><br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="https://juliorestrepo.files.wordpress.com/2010/08/redes-de-computadoras-tanenbaum-4ta-edicion-espanol.pdf">https://juliorestrepo.files.wordpress.com/2010/08/redes-de-computadoras-tanenbaum-4ta-edicion-espanol.pdf</a>
+<br>
+  compra <br>
+<a href="http://articulo.mercadolibre.com.mx/MLM-553717618-libro-redes-de-computadoras-andrew-s-tanenbaum-pdf-_JM">http://articulo.mercadolibre.com.mx/MLM-553717618-libro-redes-de-computadoras-andrew-s-tanenbaum-pdf-_JM</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+</div>
+
+
+<div data-role="page" id="pagina7" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Visual C# 2010 </h1>
+      </div>
+       <div data-role="content" align="center">
+         <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','imagenes/libro 9.1.jpg',1)"><img src="imagenes/libro 9.jpg" width="450" height="600" id="Image20"></a></div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div>
+         <P> Contenido de un vistazo <br>
+          Parte I Presentación de Microsoft Visual C # y Microsoft <br>
+          Visual Studio 2010 <br>
+          1 Bienvenido a C # 3 <br>
+          2 Trabajar con variables, operadores y expresiones 27 <br>
+          3 Métodos de escritura y aplicación del alcance 47 <br>
+          4 Uso de las decisiones 73 |
+          5 Uso de las instrucciones de asignación e iteración de compuestos 91 <br>
+          6 Gestión de errores y excepciones 109 <br>
+          Parte II Descripción del lenguaje C # <br>
+          7 Creación y gestión de clases y objetos 129 <br>
+          8 Comprensión de valores y referencias 151 <br>
+          9 Creación de tipos de valor con enumeraciones y estructuras 173 <br>
+          10 Uso de matrices y colecciones 191 <br>
+          11 Descripción de las matrices de parámetros 219 <br>
+          12 Trabajo con herencia 231 <br>
+          13 Creación de interfaces y definición de clases abstractas 253 <br>
+          14 Uso de la recolección de basura y la administración de recursos 279
+          Parte III Creación de componentes <br>
+          15 Implantación de propiedades en los campos de acceso 295 <br>
+          16 Utilización de los indexadores 315 <br>
+          17 Interrumpir Eventos de Flujo y Manejo del Programa 329 <br>
+          18 Presentación de Generics 353 <br>
+          19 Enumeración de colecciones 381 <br>
+          20 Consulta de datos en memoria mediante el uso de expresiones de consulta 395 <br>
+          21 Sobrecarga del operador 419 <br>
+          Iv Contenido de un vistazo <br>
+          Parte IV Construcción de Windows Presentation Foundation <br>
+          Aplicaciones <br>
+          22 Introducción a Windows Presentation Foundation 443 <br>
+          23 Recopilación de la entrada de usuario 477 <br>
+          24 Realización de la validación 509 <br>
+          Parte V Gestión de datos <br>
+          25 Consulta de información en una base de datos 535 <br>
+          26 Visualización y edición de datos utilizando la entidad <br>
+          Marco y enlace de datos 565 <br>
+          Parte VI Construcción de soluciones profesionales con <br>
+          Visual Studio 2010 <br>
+          27 Presentación de la biblioteca paralela de tareas 599 <br>
+          28 Realización de acceso a datos paralelos 649 <br>
+          29 Creación y uso de un servicio web 683 <br>
+          Apéndice <br>
+          Interoperando con Lenguajes Dinámicos 717 </ p>
+        </P>
+
+      </div>
+     </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro 9.2.png" width="450" height="600"> <br>
+     <img src="imagenes/libro 9.4.png" width="450" height="600"><br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="https://ptgmedia.pearsoncmg.com/images/9780735626706/samplepages/9780735626706.pdf">https://ptgmedia.pearsoncmg.com/images/9780735626706/samplepages/9780735626706.pdf</a>  
+<br>
+compra <br>
+<a href="https://mx.casadellibro.com/libro-visual-c-2010-paso-a-paso/9788441528246/1805674">https://mx.casadellibro.com/libro-visual-c-2010-paso-a-paso/9788441528246/1805674</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div> 
+             
+             
+<div data-role="page" id="pagina8" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Fundamento de Redes 4a Edicion </h1>
+      </div>
+       <div data-role="content" align="center">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','imagenes/libro 10.1.jpg',1)"><img src="imagenes/libro 10.jpg" width="450" height="600" id="Image23"></a></div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div>
+        <p><strong>Contenido:</strong></p>
+        <p><strong>Parte I. Fundamentos de la conectividad de redes</strong></p>
+        <p>1. El negocio de la conectividad<br>
+          2. Presentación de las bases<br>
+          3. La conectividad de redes<br>
+          4. Cableado de las redes<br>
+          5. Conectividad de redes domésticas<br>
+          6. Comprensión del hardware de las redes<br>
+          7. Conexiones entre WAN<br>
+          8. Protocolos de conectividad de redes<br>
+          9. Servicios de directorio<br>
+          10. Conexiones a larga distancia: acceso remoto a redes<br>
+          11. Asegurando su red<br>
+          12. Restablecimiento de los desastres de la red<br>
+          13. Servidores de red: todo lo que quería saber, pero temía preguntar<br>
+          14. Compra y administración de computadoras cliente</p>
+        <p><strong>Parte II. Conocimiento por medio de la práctica</strong></p>
+        <p>15. Diseño de una red<br>
+          16. Instalación y confi guración de Windows 2000 Server<br>
+          17. Administración de Windows 2000 Server: los fundamentos<br>
+          18. Otros servicios de Windows 2000 Server<br>
+          19. Windows Server 2003<br>
+          20. Instalación de Windows Server 2003<br>
+          21. Confi guración de Windows Server 2003<br>
+          22. Instalación de Linux con una confi guración de servidor<br>
+          23. Introducción a la administración de los sistemas Linux<br>
+          24. Confi guración de un servidor web Linux con Apache<br>
+          Glosario<br>
+          Índice</p>
+      </div>
+      </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro 10.2.png" width="450" height="600"> <br>
+     <img src="imagenes/libro 10.3.png" width="450" height="600"><br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="http://www.freelibros.org/redes/fundamentos-de-redes-4ta-edicion-bruce-hallberg.html">http://www.freelibros.org/redes/fundamentos-de-redes-4ta-edicion-bruce-hallberg.html</a>
+<br>
+compra <br>
+<a href="http://articulo.mercadolibre.com.mx/MLM-557575296-libro-fundamentos-de-redes-4e-cj-_JM">http://articulo.mercadolibre.com.mx/MLM-557575296-libro-fundamentos-de-redes-4e-cj-_JM</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div> 
+             
+             
+             
+<div data-role="page" id="pagina9" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Sistemas Operativos </h1>
+      </div>
+       <div data-role="content" align="center">
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image26','','imagenes/libro 11.1.jpg',1)"><img src="imagenes/libro 11.jpg" width="450" height="600" id="Image26"></a></div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div><strong>Capítulo 1. </strong>Conceptos arquitectónicos del computador. <br>
+        <strong>Capítulo 2. </strong>Introducción a los sistemas operativos. <br>
+        <strong>Capítulo 3. </strong>Procesos. <br>
+        <strong>Capítulo 4. </strong>Planificación del procesador. <br>
+        <strong>Capítulo 5. </strong>Gestión de memoria. <br>
+        <strong>Capítulo 6. </strong>Comunicación y sincronización de procesos. <br>
+        <strong>Capítulo 7. </strong>Interbloqueos. <br>
+        <strong>Capítulo 8. </strong>Entrada/Salida. <br>
+        <strong>Capítulo 9. </strong>Gestión de ficheros y directorios. <br>
+        <strong>Capítulo 10. </strong>Introducción a los sistemas distribuidos. <br>
+        <strong>Capítulo 11. </strong>Seguridad y protección. <br>
+        <strong>Apéndice 1. </strong>Resumen de llamadas al sistema. <br>
+        <strong>Bibliografía. </strong><br>
+        <strong>Índice. </strong></div>
+      </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro 11.2.png" width="450" height="600"> <br>
+     <img src="imagenes/libro 11.3.png" width="450" height="600"><br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="https://docs.google.com/file/d/0BxWDaelvgrvCNzdkMWU1NDEtYzMzNi00Y2RhLTk2YTUtNjlkYTY1OTA1ZWYw/edit?hl=es">https://docs.google.com/file/d/0BxWDaelvgrvCNzdkMWU1NDEtYzMzNi00Y2RhLTk2YTUtNjlkYTY1OTA1ZWYw/edit?hl=es</a>
+<br>
+compra <br>
+<a href="https://mx.casadellibro.com/libro-sistemas-operativos-2-ed/9788448156435/1138038">https://mx.casadellibro.com/libro-sistemas-operativos-2-ed/9788448156435/1138038</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div> 
+             
+                          
+
+<div data-role="page" id="pagina10" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> SQL SERVER 2005 </h1>
+      </div>
+       <div data-role="content" align="center">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/libro 12.1.jpg',1)"><img src="imagenes/libro 12.jpg" width="450" height="600" id="Image29"></a></div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div>
+         <p>Índice:<br>
+           Parte I. El diseño de los datos fundamentales y las  tecnologías clave:<br>
+           1. General;<br>
+           2. Las implementaciones T -SQL en SQL Server 2005;<br>
+           3. Visión general de CLR para SQL;<br>
+           4. XML y bases de datos relacionales;<br>
+           5. Introducción a SQL Server Management Studio;<br>
+           6. El uso de objetos SMO (SQL Server Management Object);<br>
+           7. Protección de SQL Server 2005;<br>
+           Parte II. appliapplicazioni desarrollo y la mejora de las  tecnologías:<br>
+           8. ADO.NET 2.0, Juguetes tecleó conjuntos de datos y datos  de la Asociación .NET;<br>
+           9. depuración;<br>
+           10. Servicios Web XML nativos en SQL Server 2005;<br>
+           11. transacciones;<br>
+           12. SQL Server Service Broker: El nuevo middleware;<br>
+           13. Uso de SQL Server 2005 Notification Services;<br>
+           14. Desarrollo de aplicaciones de escritorio con SQL Server  Express Edition;<br>
+           Desarrollo 15. Aplicación con SQL Server 2005 Everywhere  Edition y duplicación de mezcla de SQL Server;<br>
+           Parte III. Presentación de informes y Business Intelligence:<br>
+           16. Uso de SQL Server 2005 Integration Services;<br>
+           17. OLAP básico;<br>
+           18. OLAP avanzada;<br>
+           19. aplicaciones OLAP de desarrollo;<br>
+           20. Ampliación del sistema de base de datos con la minería  de datos;<br>
+           21. Servicios de Información.</p>
+      </div>
+      </div>
+    <div data-role="collapsible" data-content-theme="false">
+     <h1> Demo del libro </h1>
+     <img src="imagenes/libro 12.2.png" width="450" height="600"> <br>
+     <img src="imagenes/libro 12.3.png" width="450" height="600"><br>
+     </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="http://www.wpcsh.com/shitu/Book/DownloadFile.aspx?ID=R00089">http://www.wpcsh.com/shitu/Book/DownloadFile.aspx?ID=R00089</a>
+<br>
+compra <br>
+<a href="https://mx.casadellibro.com/libro-programacion-avanzada-con-sql-server-2005/9789701058930/1157586">https://mx.casadellibro.com/libro-programacion-avanzada-con-sql-server-2005/9789701058930/1157586</a>
+   </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion dos, IARE </h4>
+           </div>
+             </div> 
+             
+
+
+<div data-role="page" id="pagina11" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+        <h1 class="flow"> Mantenimiento y reparacion de  computadoras </h1>
+      </div>
+       <div data-role="content" align="center">
+        <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image31','','imagenes/libro 13.2.png',1)"><img src="imagenes/libro 13.png" width="450" height="600" id="Image31"></a></div
+><div data-role="collapsible" data-content-theme="false">
+    <h1> Indice del Libro </h1>
+      <div>
+        <ol>
+          <li>Mantenimiento de Computadoras</li>
+          <li>Introducción</li>
+          <li>Mantenimiento Preventivo</li>
+          <li>Mantenimiento Correctivo:</li>
+          <li>Dispositivos internos del gabinete o carcasa  (CPU)</li>
+          <li>Tarjeta madre o principal</li>
+          <li>Microprocesador</li>
+          <li>Memoria RAM</li>
+          <li>Disco duro o rígido</li>
+          <li>Tarjeta de Video</li>
+          <li>Tarjeta de Sonido</li>
+          <li>Tarjeta de Red</li>
+          <li>Fax</li>
+          <li>Modem</li>
+          <li>Puertos de Conexión</li>
+          <li>Fuente de Poder</li>
+          <li>Pasos para el desarmado del Gabinete (CPU):</li>
+          <li>Pasos para el armado del Gabinete (CPU):</li>
+          <li>El BIOS</li>
+          <li>Instalación del Sistema Operativo Windows XP</li>
+          <li>Herramientas de diagnostico</li>
+          <li>Desfragmentador de disco</li>
+          <li>Liberador de espacio en disco</li>
+          <li>Introducción a redes</li>
+          <li>¿Qué es una red?</li>
+          <li>Componentes principales de una red</li>
+          <li>Manual de Mantenimiento de PCs e Introducción a  Redes</li>
+          <li>Estaciones de trabajo</li>
+          <li>Servidores</li>
+          <li>Medios de Transmisión</li>
+          <li>Dispositivos de conexión</li>
+          <li>Cobertura de una red</li>
+          <li>Redes de área local (LAN)</li>
+          <li>Redes de área extensa (WAN)</li>
+          <li>Topologías de una red</li>
+          <li>Topología en bus o lineal</li>
+          <li>Topología en anillo</li>
+          <li>Topología en estrella</li>
+          <li>Elaboración de un cable UTP para red</li>
+          <li>Equipo y material necesario:</li>
+          <li>Normas de cableado</li>
+          <li>Tipos de cables que se pueden elaborar</li>
+          <li>Pasos generales para elaborar un cable UTP para  red</li>
+          <li>Creación de un grupo de trabajo</li>
+          <li>Requisitos para formar un grupo de trabajo 38</li>
+          <li>Pasos para crear un grupo de trabajo 38</li>
+          <li>Compartir recursos 42</li>
+          <li>Compartir archivos y carpetas 42</li>
+        </ol>
+      </div>
+        </div>
+<div data-role="collapsible" data-content-theme="false">
+  <h1> Links de descarga y compra </h1>
+  descarga gratuita <br>
+<a href="http://www.grupocultural.com/catalogo-grupo-cultural-detalle.php?id=91&id_categoria=14">http://www.grupocultural.com/catalogo-grupo-cultural-detalle.php?id=91&id_categoria=14</a>
+<br>
+compra <br>
+<a href="https://www.amazon.es/MANTENIMIENTO-REPARACION-COMPUTADORAS-DVD/dp/B00E0OAIIQ">https://www.amazon.es/MANTENIMIENTO-REPARACION-COMPUTADORAS-DVD/dp/B00E0OAIIQ</a>
+ </div>
+         <div data-role="footer" data-theme="a" data-position="fixed">
+           <h4> Aplicacion tres, IARE </h4>
+           </div>
+             </div>
+             
+  
+  
+</body>
+</html>              

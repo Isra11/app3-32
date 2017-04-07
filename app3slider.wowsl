@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.7</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>0</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>app3slider</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>dribbles</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>360</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>C:/Program Files (x86)/WOW Slider/templates/backgnd/convex/</ImageTemplate>
+            <ImageTemplateName>Convex</ImageTemplateName>
+            <ImageWidth>640</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>E:/DAM/2do parcial/aplicaciones/app3/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>E:/DAM/2do parcial/aplicaciones/app3</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#54acd2</TemplateColor>
+            <TemplateFont>Gurajada</TemplateFont>
+            <TemplateName>convex</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/lib1.1.jpg</url>
+                <title>lib1.1</title>
+                <filesize>5033367</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 3.1.jpg</url>
+                <title>libro 3.1</title>
+                <filesize>1469408</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 3.2.jpg</url>
+                <title>libro 3.2</title>
+                <filesize>1911895</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 4.1.jpg</url>
+                <title>libro 4.1</title>
+                <filesize>2081215</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 4.png</url>
+                <title>libro 4</title>
+                <filesize>224244</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 6.1.jpg</url>
+                <title>libro 6.1</title>
+                <filesize>2128158</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 6.jpg</url>
+                <title>libro 6</title>
+                <filesize>1594874</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 8.1.png</url>
+                <title>libro 8.1</title>
+                <filesize>2754962</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 8.png</url>
+                <title>libro 8</title>
+                <filesize>1462405</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 9.1.jpg</url>
+                <title>libro 9.1</title>
+                <filesize>1587999</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 9.jpg</url>
+                <title>libro 9</title>
+                <filesize>1763155</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 10.1.jpg</url>
+                <title>libro 10.1</title>
+                <filesize>1976529</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 10.jpg</url>
+                <title>libro 10</title>
+                <filesize>2320823</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 11.1.jpg</url>
+                <title>libro 11.1</title>
+                <filesize>2348855</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 11.jpg</url>
+                <title>libro 11</title>
+                <filesize>1488877</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 12.1.jpg</url>
+                <title>libro 12.1</title>
+                <filesize>1936188</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 12.jpg</url>
+                <title>libro 12</title>
+                <filesize>1263161</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 13.2.png</url>
+                <title>libro 13.2</title>
+                <filesize>14441975</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro 13.png</url>
+                <title>libro 13</title>
+                <filesize>535351</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro2.1.jpg</url>
+                <title>libro2.1</title>
+                <filesize>2142868</filesize>
+            </Image>
+            <Image>
+                <url>E:/DAM/2do parcial/aplicaciones/app3/imagenes/libro2.jpg</url>
+                <title>libro2</title>
+                <filesize>1718189</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
